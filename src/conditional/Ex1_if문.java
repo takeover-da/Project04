@@ -1,6 +1,8 @@
+// if문
+
 package conditional;
 
-public class Ex1 {
+public class Ex1_if문 {
 
 	public static void main(String[] args) {
 
@@ -13,6 +15,7 @@ public class Ex1 {
 		// 블록의 의미
 		if (age >= 8) {
 			int temp = 0;  // temp는 블록이 끝나기 전까지만 존재
+			System.out.println(temp);
 		}
 	}
 	
